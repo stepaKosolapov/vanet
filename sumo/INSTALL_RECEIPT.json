@@ -1,0 +1,191 @@
+{
+  "homebrew_version": "3.6.20-298-g8fdf6ac",
+  "used_options": [
+
+  ],
+  "unused_options": [
+
+  ],
+  "built_as_bottle": true,
+  "poured_from_bottle": true,
+  "loaded_from_api": null,
+  "installed_as_dependency": false,
+  "installed_on_request": true,
+  "changed_files": [
+    "INSTALL_RECEIPT.json",
+    "share/sumo/tools/contributed/sumopy/coremodules/simulation/sumo.py"
+  ],
+  "time": 1681681180,
+  "source_modified_time": 1675724936,
+  "compiler": "clang",
+  "aliases": [
+    "sumo@1.16"
+  ],
+  "runtime_dependencies": [
+    {
+      "full_name": "libpng",
+      "version": "1.6.39",
+      "declared_directly": false
+    },
+    {
+      "full_name": "freetype",
+      "version": "2.13.0",
+      "declared_directly": false
+    },
+    {
+      "full_name": "fontconfig",
+      "version": "2.14.2",
+      "declared_directly": false
+    },
+    {
+      "full_name": "jpeg-turbo",
+      "version": "2.1.5.1",
+      "declared_directly": false
+    },
+    {
+      "full_name": "lz4",
+      "version": "1.9.4",
+      "declared_directly": false
+    },
+    {
+      "full_name": "xz",
+      "version": "5.4.2",
+      "declared_directly": false
+    },
+    {
+      "full_name": "zstd",
+      "version": "1.5.5",
+      "declared_directly": false
+    },
+    {
+      "full_name": "libtiff",
+      "version": "4.4.0",
+      "declared_directly": false
+    },
+    {
+      "full_name": "xorgproto",
+      "version": "2022.2",
+      "declared_directly": false
+    },
+    {
+      "full_name": "libxau",
+      "version": "1.0.11",
+      "declared_directly": false
+    },
+    {
+      "full_name": "libxdmcp",
+      "version": "1.1.4",
+      "declared_directly": false
+    },
+    {
+      "full_name": "libxcb",
+      "version": "1.15",
+      "declared_directly": false
+    },
+    {
+      "full_name": "libx11",
+      "version": "1.8.4",
+      "declared_directly": true
+    },
+    {
+      "full_name": "libxfixes",
+      "version": "6.0.1",
+      "declared_directly": true
+    },
+    {
+      "full_name": "libxrender",
+      "version": "0.9.11",
+      "declared_directly": true
+    },
+    {
+      "full_name": "libxcursor",
+      "version": "1.2.1",
+      "declared_directly": true
+    },
+    {
+      "full_name": "libxext",
+      "version": "1.3.5",
+      "declared_directly": true
+    },
+    {
+      "full_name": "libxft",
+      "version": "2.3.7",
+      "declared_directly": true
+    },
+    {
+      "full_name": "libxi",
+      "version": "1.8",
+      "declared_directly": true
+    },
+    {
+      "full_name": "libxrandr",
+      "version": "1.5.3",
+      "declared_directly": true
+    },
+    {
+      "full_name": "expat",
+      "version": "2.5.0",
+      "declared_directly": false
+    },
+    {
+      "full_name": "libxdamage",
+      "version": "1.1.6",
+      "declared_directly": false
+    },
+    {
+      "full_name": "gettext",
+      "version": "0.21.1",
+      "declared_directly": false
+    },
+    {
+      "full_name": "mesa",
+      "version": "22.3.6",
+      "declared_directly": false
+    },
+    {
+      "full_name": "mesa-glu",
+      "version": "9.0.2",
+      "declared_directly": false
+    },
+    {
+      "full_name": "fox",
+      "version": "1.6.56",
+      "declared_directly": true
+    },
+    {
+      "full_name": "libice",
+      "version": "1.1.1",
+      "declared_directly": true
+    },
+    {
+      "full_name": "proj",
+      "version": "9.2.0",
+      "declared_directly": true
+    },
+    {
+      "full_name": "xerces-c",
+      "version": "3.2.4",
+      "declared_directly": true
+    }
+  ],
+  "source": {
+    "path": "/usr/local/Homebrew/Library/Taps/dlr-ts/homebrew-sumo/Formula/sumo.rb",
+    "tap": "dlr-ts/sumo",
+    "tap_git_head": "c5a91986e8d6907976267d00f49d4937c165c652",
+    "spec": "stable",
+    "versions": {
+      "stable": "1.16.0",
+      "head": "HEAD",
+      "version_scheme": 0
+    }
+  },
+  "arch": "x86_64",
+  "built_on": {
+    "os": "Macintosh",
+    "os_version": "macOS 11.7",
+    "cpu_family": "ivybridge",
+    "xcode": "13.2.1",
+    "clt": "13.2.0.0.1.1638488800",
+    "preferred_perl": "5.30"
+  }
+}
