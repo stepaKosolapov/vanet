@@ -173,6 +173,20 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+scratch/CMakeFiles/scratch_ns2-mobility-trace.dir/rule:
+	cd /Users/stepa-kos/Desktop/practice/ns-3/ns-allinone-3.38/ns-3.38/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 scratch/CMakeFiles/scratch_ns2-mobility-trace.dir/rule
+.PHONY : scratch/CMakeFiles/scratch_ns2-mobility-trace.dir/rule
+
+# Convenience name for target.
+scratch_ns2-mobility-trace: scratch/CMakeFiles/scratch_ns2-mobility-trace.dir/rule
+.PHONY : scratch_ns2-mobility-trace
+
+# fast build rule for target.
+scratch_ns2-mobility-trace/fast:
+	cd /Users/stepa-kos/Desktop/practice/ns-3/ns-allinone-3.38/ns-3.38/cmake-cache && $(MAKE) $(MAKESILENT) -f scratch/CMakeFiles/scratch_ns2-mobility-trace.dir/build.make scratch/CMakeFiles/scratch_ns2-mobility-trace.dir/build
+.PHONY : scratch_ns2-mobility-trace/fast
+
+# Convenience name for target.
 scratch/CMakeFiles/scratch_scratch-simulator.dir/rule:
 	cd /Users/stepa-kos/Desktop/practice/ns-3/ns-allinone-3.38/ns-3.38/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 scratch/CMakeFiles/scratch_scratch-simulator.dir/rule
 .PHONY : scratch/CMakeFiles/scratch_scratch-simulator.dir/rule
@@ -199,6 +213,30 @@ scratch_subdir_scratch-subdir: scratch/CMakeFiles/scratch_subdir_scratch-subdir.
 scratch_subdir_scratch-subdir/fast:
 	cd /Users/stepa-kos/Desktop/practice/ns-3/ns-allinone-3.38/ns-3.38/cmake-cache && $(MAKE) $(MAKESILENT) -f scratch/CMakeFiles/scratch_subdir_scratch-subdir.dir/build.make scratch/CMakeFiles/scratch_subdir_scratch-subdir.dir/build
 .PHONY : scratch_subdir_scratch-subdir/fast
+
+ns2-mobility-trace.o: ns2-mobility-trace.cc.o
+.PHONY : ns2-mobility-trace.o
+
+# target to build an object file
+ns2-mobility-trace.cc.o:
+	cd /Users/stepa-kos/Desktop/practice/ns-3/ns-allinone-3.38/ns-3.38/cmake-cache && $(MAKE) $(MAKESILENT) -f scratch/CMakeFiles/scratch_ns2-mobility-trace.dir/build.make scratch/CMakeFiles/scratch_ns2-mobility-trace.dir/ns2-mobility-trace.cc.o
+.PHONY : ns2-mobility-trace.cc.o
+
+ns2-mobility-trace.i: ns2-mobility-trace.cc.i
+.PHONY : ns2-mobility-trace.i
+
+# target to preprocess a source file
+ns2-mobility-trace.cc.i:
+	cd /Users/stepa-kos/Desktop/practice/ns-3/ns-allinone-3.38/ns-3.38/cmake-cache && $(MAKE) $(MAKESILENT) -f scratch/CMakeFiles/scratch_ns2-mobility-trace.dir/build.make scratch/CMakeFiles/scratch_ns2-mobility-trace.dir/ns2-mobility-trace.cc.i
+.PHONY : ns2-mobility-trace.cc.i
+
+ns2-mobility-trace.s: ns2-mobility-trace.cc.s
+.PHONY : ns2-mobility-trace.s
+
+# target to generate assembly for a file
+ns2-mobility-trace.cc.s:
+	cd /Users/stepa-kos/Desktop/practice/ns-3/ns-allinone-3.38/ns-3.38/cmake-cache && $(MAKE) $(MAKESILENT) -f scratch/CMakeFiles/scratch_ns2-mobility-trace.dir/build.make scratch/CMakeFiles/scratch_ns2-mobility-trace.dir/ns2-mobility-trace.cc.s
+.PHONY : ns2-mobility-trace.cc.s
 
 scratch-simulator.o: scratch-simulator.cc.o
 .PHONY : scratch-simulator.o
@@ -285,8 +323,12 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... test"
+	@echo "... scratch_ns2-mobility-trace"
 	@echo "... scratch_scratch-simulator"
 	@echo "... scratch_subdir_scratch-subdir"
+	@echo "... ns2-mobility-trace.o"
+	@echo "... ns2-mobility-trace.i"
+	@echo "... ns2-mobility-trace.s"
 	@echo "... scratch-simulator.o"
 	@echo "... scratch-simulator.i"
 	@echo "... scratch-simulator.s"

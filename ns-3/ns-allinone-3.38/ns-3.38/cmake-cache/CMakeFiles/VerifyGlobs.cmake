@@ -5,6 +5,7 @@ cmake_policy(SET CMP0009 NEW)
 # single_source_file_scratches at scratch/CMakeLists.txt:57 (file)
 file(GLOB NEW_GLOB LIST_DIRECTORIES true "/Users/stepa-kos/Desktop/practice/ns-3/ns-allinone-3.38/ns-3.38/scratch/[^.]*.cc")
 set(OLD_GLOB
+  "/Users/stepa-kos/Desktop/practice/ns-3/ns-allinone-3.38/ns-3.38/scratch/ns2-mobility-trace.cc"
   "/Users/stepa-kos/Desktop/practice/ns-3/ns-allinone-3.38/ns-3.38/scratch/scratch-simulator.cc"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
@@ -43,6 +44,7 @@ set(OLD_GLOB
   "/Users/stepa-kos/Desktop/practice/ns-3/ns-allinone-3.38/ns-3.38/scratch/nested-subdir/lib/scratch-nested-subdir-library-header.h"
   "/Users/stepa-kos/Desktop/practice/ns-3/ns-allinone-3.38/ns-3.38/scratch/nested-subdir/lib/scratch-nested-subdir-library-source.cc"
   "/Users/stepa-kos/Desktop/practice/ns-3/ns-allinone-3.38/ns-3.38/scratch/nested-subdir/scratch-nested-subdir-executable.cc"
+  "/Users/stepa-kos/Desktop/practice/ns-3/ns-allinone-3.38/ns-3.38/scratch/ns2-mobility-trace.cc"
   "/Users/stepa-kos/Desktop/practice/ns-3/ns-allinone-3.38/ns-3.38/scratch/scratch-simulator.cc"
   "/Users/stepa-kos/Desktop/practice/ns-3/ns-allinone-3.38/ns-3.38/scratch/subdir"
   "/Users/stepa-kos/Desktop/practice/ns-3/ns-allinone-3.38/ns-3.38/scratch/subdir/scratch-subdir-additional-header.cc"

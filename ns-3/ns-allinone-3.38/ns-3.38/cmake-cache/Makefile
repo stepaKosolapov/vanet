@@ -5555,6 +5555,19 @@ wifi-eht-network/fast:
 .PHONY : wifi-eht-network/fast
 
 #=============================================================================
+# Target rules for targets named scratch_ns2-mobility-trace
+
+# Build rule for target.
+scratch_ns2-mobility-trace: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 scratch_ns2-mobility-trace
+.PHONY : scratch_ns2-mobility-trace
+
+# fast build rule for target.
+scratch_ns2-mobility-trace/fast:
+	$(MAKE) $(MAKESILENT) -f scratch/CMakeFiles/scratch_ns2-mobility-trace.dir/build.make scratch/CMakeFiles/scratch_ns2-mobility-trace.dir/build
+.PHONY : scratch_ns2-mobility-trace/fast
+
+#=============================================================================
 # Target rules for targets named scratch_scratch-simulator
 
 # Build rule for target.
@@ -6062,6 +6075,7 @@ help:
 	@echo "... sample-simulator"
 	@echo "... scratch-nested-subdir-lib"
 	@echo "... scratch_nested-subdir_scratch-nested-subdir-executable"
+	@echo "... scratch_ns2-mobility-trace"
 	@echo "... scratch_scratch-simulator"
 	@echo "... scratch_subdir_scratch-subdir"
 	@echo "... second"
