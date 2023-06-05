@@ -5581,6 +5581,32 @@ scratch_scratch-simulator/fast:
 .PHONY : scratch_scratch-simulator/fast
 
 #=============================================================================
+# Target rules for targets named scratch_test
+
+# Build rule for target.
+scratch_test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 scratch_test
+.PHONY : scratch_test
+
+# fast build rule for target.
+scratch_test/fast:
+	$(MAKE) $(MAKESILENT) -f scratch/CMakeFiles/scratch_test.dir/build.make scratch/CMakeFiles/scratch_test.dir/build
+.PHONY : scratch_test/fast
+
+#=============================================================================
+# Target rules for targets named scratch_vanet-routing-compare
+
+# Build rule for target.
+scratch_vanet-routing-compare: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 scratch_vanet-routing-compare
+.PHONY : scratch_vanet-routing-compare
+
+# fast build rule for target.
+scratch_vanet-routing-compare/fast:
+	$(MAKE) $(MAKESILENT) -f scratch/CMakeFiles/scratch_vanet-routing-compare.dir/build.make scratch/CMakeFiles/scratch_vanet-routing-compare.dir/build
+.PHONY : scratch_vanet-routing-compare/fast
+
+#=============================================================================
 # Target rules for targets named scratch_subdir_scratch-subdir
 
 # Build rule for target.
@@ -6078,6 +6104,8 @@ help:
 	@echo "... scratch_ns2-mobility-trace"
 	@echo "... scratch_scratch-simulator"
 	@echo "... scratch_subdir_scratch-subdir"
+	@echo "... scratch_test"
+	@echo "... scratch_vanet-routing-compare"
 	@echo "... second"
 	@echo "... seventh"
 	@echo "... simple-alternate-routing"

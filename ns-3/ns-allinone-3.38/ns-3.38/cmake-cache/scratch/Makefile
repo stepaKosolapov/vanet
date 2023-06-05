@@ -201,6 +201,34 @@ scratch_scratch-simulator/fast:
 .PHONY : scratch_scratch-simulator/fast
 
 # Convenience name for target.
+scratch/CMakeFiles/scratch_test.dir/rule:
+	cd /Users/stepa-kos/Desktop/practice/ns-3/ns-allinone-3.38/ns-3.38/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 scratch/CMakeFiles/scratch_test.dir/rule
+.PHONY : scratch/CMakeFiles/scratch_test.dir/rule
+
+# Convenience name for target.
+scratch_test: scratch/CMakeFiles/scratch_test.dir/rule
+.PHONY : scratch_test
+
+# fast build rule for target.
+scratch_test/fast:
+	cd /Users/stepa-kos/Desktop/practice/ns-3/ns-allinone-3.38/ns-3.38/cmake-cache && $(MAKE) $(MAKESILENT) -f scratch/CMakeFiles/scratch_test.dir/build.make scratch/CMakeFiles/scratch_test.dir/build
+.PHONY : scratch_test/fast
+
+# Convenience name for target.
+scratch/CMakeFiles/scratch_vanet-routing-compare.dir/rule:
+	cd /Users/stepa-kos/Desktop/practice/ns-3/ns-allinone-3.38/ns-3.38/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 scratch/CMakeFiles/scratch_vanet-routing-compare.dir/rule
+.PHONY : scratch/CMakeFiles/scratch_vanet-routing-compare.dir/rule
+
+# Convenience name for target.
+scratch_vanet-routing-compare: scratch/CMakeFiles/scratch_vanet-routing-compare.dir/rule
+.PHONY : scratch_vanet-routing-compare
+
+# fast build rule for target.
+scratch_vanet-routing-compare/fast:
+	cd /Users/stepa-kos/Desktop/practice/ns-3/ns-allinone-3.38/ns-3.38/cmake-cache && $(MAKE) $(MAKESILENT) -f scratch/CMakeFiles/scratch_vanet-routing-compare.dir/build.make scratch/CMakeFiles/scratch_vanet-routing-compare.dir/build
+.PHONY : scratch_vanet-routing-compare/fast
+
+# Convenience name for target.
 scratch/CMakeFiles/scratch_subdir_scratch-subdir.dir/rule:
 	cd /Users/stepa-kos/Desktop/practice/ns-3/ns-allinone-3.38/ns-3.38/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 scratch/CMakeFiles/scratch_subdir_scratch-subdir.dir/rule
 .PHONY : scratch/CMakeFiles/scratch_subdir_scratch-subdir.dir/rule
@@ -310,6 +338,54 @@ subdir/scratch-subdir.cc.s:
 	cd /Users/stepa-kos/Desktop/practice/ns-3/ns-allinone-3.38/ns-3.38/cmake-cache && $(MAKE) $(MAKESILENT) -f scratch/CMakeFiles/scratch_subdir_scratch-subdir.dir/build.make scratch/CMakeFiles/scratch_subdir_scratch-subdir.dir/subdir/scratch-subdir.cc.s
 .PHONY : subdir/scratch-subdir.cc.s
 
+test.o: test.cc.o
+.PHONY : test.o
+
+# target to build an object file
+test.cc.o:
+	cd /Users/stepa-kos/Desktop/practice/ns-3/ns-allinone-3.38/ns-3.38/cmake-cache && $(MAKE) $(MAKESILENT) -f scratch/CMakeFiles/scratch_test.dir/build.make scratch/CMakeFiles/scratch_test.dir/test.cc.o
+.PHONY : test.cc.o
+
+test.i: test.cc.i
+.PHONY : test.i
+
+# target to preprocess a source file
+test.cc.i:
+	cd /Users/stepa-kos/Desktop/practice/ns-3/ns-allinone-3.38/ns-3.38/cmake-cache && $(MAKE) $(MAKESILENT) -f scratch/CMakeFiles/scratch_test.dir/build.make scratch/CMakeFiles/scratch_test.dir/test.cc.i
+.PHONY : test.cc.i
+
+test.s: test.cc.s
+.PHONY : test.s
+
+# target to generate assembly for a file
+test.cc.s:
+	cd /Users/stepa-kos/Desktop/practice/ns-3/ns-allinone-3.38/ns-3.38/cmake-cache && $(MAKE) $(MAKESILENT) -f scratch/CMakeFiles/scratch_test.dir/build.make scratch/CMakeFiles/scratch_test.dir/test.cc.s
+.PHONY : test.cc.s
+
+vanet-routing-compare.o: vanet-routing-compare.cc.o
+.PHONY : vanet-routing-compare.o
+
+# target to build an object file
+vanet-routing-compare.cc.o:
+	cd /Users/stepa-kos/Desktop/practice/ns-3/ns-allinone-3.38/ns-3.38/cmake-cache && $(MAKE) $(MAKESILENT) -f scratch/CMakeFiles/scratch_vanet-routing-compare.dir/build.make scratch/CMakeFiles/scratch_vanet-routing-compare.dir/vanet-routing-compare.cc.o
+.PHONY : vanet-routing-compare.cc.o
+
+vanet-routing-compare.i: vanet-routing-compare.cc.i
+.PHONY : vanet-routing-compare.i
+
+# target to preprocess a source file
+vanet-routing-compare.cc.i:
+	cd /Users/stepa-kos/Desktop/practice/ns-3/ns-allinone-3.38/ns-3.38/cmake-cache && $(MAKE) $(MAKESILENT) -f scratch/CMakeFiles/scratch_vanet-routing-compare.dir/build.make scratch/CMakeFiles/scratch_vanet-routing-compare.dir/vanet-routing-compare.cc.i
+.PHONY : vanet-routing-compare.cc.i
+
+vanet-routing-compare.s: vanet-routing-compare.cc.s
+.PHONY : vanet-routing-compare.s
+
+# target to generate assembly for a file
+vanet-routing-compare.cc.s:
+	cd /Users/stepa-kos/Desktop/practice/ns-3/ns-allinone-3.38/ns-3.38/cmake-cache && $(MAKE) $(MAKESILENT) -f scratch/CMakeFiles/scratch_vanet-routing-compare.dir/build.make scratch/CMakeFiles/scratch_vanet-routing-compare.dir/vanet-routing-compare.cc.s
+.PHONY : vanet-routing-compare.cc.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -326,6 +402,8 @@ help:
 	@echo "... scratch_ns2-mobility-trace"
 	@echo "... scratch_scratch-simulator"
 	@echo "... scratch_subdir_scratch-subdir"
+	@echo "... scratch_test"
+	@echo "... scratch_vanet-routing-compare"
 	@echo "... ns2-mobility-trace.o"
 	@echo "... ns2-mobility-trace.i"
 	@echo "... ns2-mobility-trace.s"
@@ -338,6 +416,12 @@ help:
 	@echo "... subdir/scratch-subdir.o"
 	@echo "... subdir/scratch-subdir.i"
 	@echo "... subdir/scratch-subdir.s"
+	@echo "... test.o"
+	@echo "... test.i"
+	@echo "... test.s"
+	@echo "... vanet-routing-compare.o"
+	@echo "... vanet-routing-compare.i"
+	@echo "... vanet-routing-compare.s"
 .PHONY : help
 
 

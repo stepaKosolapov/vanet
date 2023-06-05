@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 # Eclipse SUMO, Simulation of Urban MObility; see https://eclipse.org/sumo
 # Copyright (C) 2010-2023 German Aerospace Center (DLR) and others.
 # This program and the accompanying materials are made available under the
@@ -170,10 +170,10 @@ class PropertyReader(xml.sax.handler.ContentHandler):
         if ext in (".py", ".pyw"):
             if lines[0][:2] == '#!':
                 idx += 1
-                if lines[0] not in ('#!/usr/bin/env python\n', '#!/usr/bin/env python3\n', '#!/usr/bin/env python2\n'):
+                if lines[0] not in ('#!/usr/bin/env python3\n', '#!/usr/bin/env python3\n', '#!/usr/bin/env python2\n'):
                     print(self._file, "wrong shebang")
                     if self._fix:
-                        lines[0] = '#!/usr/bin/env python\n'
+                        lines[0] = '#!/usr/bin/env python3\n'
                         self._haveFixed = True
             if lines[idx][:5] == '# -*-':
                 idx += 1

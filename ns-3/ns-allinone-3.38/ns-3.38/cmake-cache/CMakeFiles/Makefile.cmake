@@ -740,6 +740,8 @@ set(CMAKE_DEPEND_INFO_FILES
   "examples/wireless/CMakeFiles/wifi-eht-network.dir/DependInfo.cmake"
   "scratch/CMakeFiles/scratch_ns2-mobility-trace.dir/DependInfo.cmake"
   "scratch/CMakeFiles/scratch_scratch-simulator.dir/DependInfo.cmake"
+  "scratch/CMakeFiles/scratch_test.dir/DependInfo.cmake"
+  "scratch/CMakeFiles/scratch_vanet-routing-compare.dir/DependInfo.cmake"
   "scratch/CMakeFiles/scratch_subdir_scratch-subdir.dir/DependInfo.cmake"
   "scratch/nested-subdir/CMakeFiles/scratch-nested-subdir-lib.dir/DependInfo.cmake"
   "scratch/nested-subdir/CMakeFiles/scratch_nested-subdir_scratch-nested-subdir-executable.dir/DependInfo.cmake"

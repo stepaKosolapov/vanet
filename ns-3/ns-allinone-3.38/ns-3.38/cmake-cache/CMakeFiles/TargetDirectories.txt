@@ -1065,6 +1065,8 @@
 /Users/stepa-kos/Desktop/practice/ns-3/ns-allinone-3.38/ns-3.38/cmake-cache/examples/wireless/CMakeFiles/install/strip.dir
 /Users/stepa-kos/Desktop/practice/ns-3/ns-allinone-3.38/ns-3.38/cmake-cache/scratch/CMakeFiles/scratch_ns2-mobility-trace.dir
 /Users/stepa-kos/Desktop/practice/ns-3/ns-allinone-3.38/ns-3.38/cmake-cache/scratch/CMakeFiles/scratch_scratch-simulator.dir
+/Users/stepa-kos/Desktop/practice/ns-3/ns-allinone-3.38/ns-3.38/cmake-cache/scratch/CMakeFiles/scratch_test.dir
+/Users/stepa-kos/Desktop/practice/ns-3/ns-allinone-3.38/ns-3.38/cmake-cache/scratch/CMakeFiles/scratch_vanet-routing-compare.dir
 /Users/stepa-kos/Desktop/practice/ns-3/ns-allinone-3.38/ns-3.38/cmake-cache/scratch/CMakeFiles/scratch_subdir_scratch-subdir.dir
 /Users/stepa-kos/Desktop/practice/ns-3/ns-allinone-3.38/ns-3.38/cmake-cache/scratch/CMakeFiles/test.dir
 /Users/stepa-kos/Desktop/practice/ns-3/ns-allinone-3.38/ns-3.38/cmake-cache/scratch/CMakeFiles/edit_cache.dir

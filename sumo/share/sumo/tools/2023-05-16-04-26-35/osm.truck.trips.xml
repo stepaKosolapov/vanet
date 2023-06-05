@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2023-05-16 04:26:38.768155 by osmWebWizard.py UNKNOWN
+<configuration>
+    <begin value="0"/>
+    <end value="300"/>
+    <fringe-factor value="5"/>
+    <fringe-start-attributes value="departSpeed=&quot;max&quot;"/>
+    <insertion-density value="10.0"/>
+    <min-distance.fringe value="10.0"/>
+    <min-distance value="600.0"/>
+    <net-file value="/Users/stepa-kos/Desktop/practice/sumo/share/sumo/tools/2023-05-16-04-26-35/osm.net.xml.gz"/>
+    <remove-loops value="True"/>
+    <route-file value="/Users/stepa-kos/Desktop/practice/sumo/share/sumo/tools/2023-05-16-04-26-35/osm.truck.rou.xml"/>
+    <trip-attributes value="departLane=&quot;best&quot;"/>
+    <output-trip-file value="/Users/stepa-kos/Desktop/practice/sumo/share/sumo/tools/2023-05-16-04-26-35/osm.truck.trips.xml"/>
+    <prefix value="truck"/>
+    <validate value="True"/>
+    <vclass value="truck"/>
+    <vehicle-class value="truck"/>
+</configuration>
+-->
+
+<!-- generated on 2023-05-16 04:26:38 by Eclipse SUMO duarouter Version 1.17.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
+
+    <input>
+        <net-file value="/Users/stepa-kos/Desktop/practice/sumo/share/sumo/tools/2023-05-16-04-26-35/osm.net.xml.gz"/>
+        <route-files value="/Users/stepa-kos/Desktop/practice/sumo/share/sumo/tools/2023-05-16-04-26-35/osm.truck.trips.xml"/>
+    </input>
+
+    <output>
+        <output-file value="/Users/stepa-kos/Desktop/practice/sumo/share/sumo/tools/2023-05-16-04-26-35/osm.truck.trips.xml.tmp"/>
+        <alternatives-output value="NUL"/>
+        <write-trips value="true"/>
+    </output>
+
+    <processing>
+        <remove-loops value="true"/>
+    </processing>
+
+    <time>
+        <begin value="0"/>
+        <end value="300"/>
+    </time>
+
+    <report>
+        <no-warnings value="true"/>
+        <ignore-errors value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vType id="truck_truck" vClass="truck"/>
+    <trip id="truck0" type="truck_truck" depart="0.00" departLane="best" departSpeed="max" from="913430673#0" to="67342401#2"/>
+    <trip id="truck1" type="truck_truck" depart="119.36" departLane="best" departSpeed="max" from="1168957205#0" to="1073253895"/>
+    <trip id="truck2" type="truck_truck" depart="238.72" departLane="best" departSpeed="max" from="913430673#0" to="1168957205#3"/>
+</routes>

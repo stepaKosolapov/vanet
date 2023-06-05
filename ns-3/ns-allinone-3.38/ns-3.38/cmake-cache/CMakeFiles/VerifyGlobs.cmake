@@ -7,6 +7,8 @@ file(GLOB NEW_GLOB LIST_DIRECTORIES true "/Users/stepa-kos/Desktop/practice/ns-3
 set(OLD_GLOB
   "/Users/stepa-kos/Desktop/practice/ns-3/ns-allinone-3.38/ns-3.38/scratch/ns2-mobility-trace.cc"
   "/Users/stepa-kos/Desktop/practice/ns-3/ns-allinone-3.38/ns-3.38/scratch/scratch-simulator.cc"
+  "/Users/stepa-kos/Desktop/practice/ns-3/ns-allinone-3.38/ns-3.38/scratch/test.cc"
+  "/Users/stepa-kos/Desktop/practice/ns-3/ns-allinone-3.38/ns-3.38/scratch/vanet-routing-compare.cc"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
@@ -50,6 +52,8 @@ set(OLD_GLOB
   "/Users/stepa-kos/Desktop/practice/ns-3/ns-allinone-3.38/ns-3.38/scratch/subdir/scratch-subdir-additional-header.cc"
   "/Users/stepa-kos/Desktop/practice/ns-3/ns-allinone-3.38/ns-3.38/scratch/subdir/scratch-subdir-additional-header.h"
   "/Users/stepa-kos/Desktop/practice/ns-3/ns-allinone-3.38/ns-3.38/scratch/subdir/scratch-subdir.cc"
+  "/Users/stepa-kos/Desktop/practice/ns-3/ns-allinone-3.38/ns-3.38/scratch/test.cc"
+  "/Users/stepa-kos/Desktop/practice/ns-3/ns-allinone-3.38/ns-3.38/scratch/vanet-routing-compare.cc"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
